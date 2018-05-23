@@ -1,0 +1,50 @@
+{
+  "name": "phaser-ce-flappy-bird",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://aaronchenwei.github.io/phaser-ce-flappy-bird",
+  "dependencies": {
+    "lodash-es": "^4.17.10",
+    "phaser-ce": "^2.10.5",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-helmet": "^5.2.0",
+    "styled-components": "^3.2.6",
+    "styled-sanitize": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.0",
+    "@types/node": "^10.1.2",
+    "@types/react": "^16.0.34",
+    "@types/react-dom": "^16.0.5",
+    "@types/react-helmet": "^5.0.6",
+    "cross-env": "^5.1.5",
+    "expose-loader": "^0.7.5",
+    "husky": "^0.14.3",
+    "imports-loader": "^0.8.0",
+    "lint-staged": "^7.0.5",
+    "prettier": "^1.12.1",
+    "react-app-rewire-phaser-ce": "^1.0.1",
+    "react-app-rewired": "^1.5.2",
+    "react-scripts-ts": "2.16.0",
+    "rimraf": "^2.6.2",
+    "typescript": "^2.8.3"
+  },
+  "resolutions": {
+    "@types/node": "10.1.2",
+    "@types/react": "16.3.14"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json}": [
+      "prettier --config .prettierrc --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "start": "react-app-rewired start --scripts-version react-scripts-ts",
+    "build": "react-app-rewired build --scripts-version react-scripts-ts",
+    "test": "react-app-rewired test --scripts-version react-scripts-ts --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
