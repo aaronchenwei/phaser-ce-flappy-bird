@@ -24,7 +24,7 @@ class App extends React.Component<any, any> {
     return (
       <GameContainer id="game">
         <Helmet>
-          <title>kiara</title>
+          <title>Flappy Bird</title>
         </Helmet>
       </GameContainer>
     );
