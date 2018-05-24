@@ -2,7 +2,7 @@
   "name": "phaser-ce-flappy-bird",
   "version": "0.1.1",
   "private": true,
-  "homepage": "http://aaronchenwei.github.io/phaser-ce-flappy-bird",
+  "homepage": "https://aaronchenwei.github.io/phaser-ce-flappy-bird",
   "dependencies": {
     "lodash-es": "^4.17.10",
     "phaser-ce": "^2.10.5",
