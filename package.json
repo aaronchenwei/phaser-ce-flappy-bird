@@ -32,12 +32,13 @@
     "typescript": "^2.9.2"
   },
   "scripts": {
-    "precommit": "pretty-quick --stage",
     "start": "react-app-rewired start --scripts-version react-scripts-ts",
-    "prebuild": "rimraf build",
     "build": "react-app-rewired build --scripts-version react-scripts-ts",
     "test": "react-app-rewired test --scripts-version react-scripts-ts --env=jsdom",
     "eject": "react-scripts-ts eject",
-    "deploy": "gh-pages -d build"
+    "precommit": "pretty-quick --stage",
+    "clean": "rimraf build",
+    "prebuild": "yarn run clean",
+    "deploy": "yarn run build && gh-pages -d build"
   }
 }
