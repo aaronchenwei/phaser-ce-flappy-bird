@@ -6,19 +6,19 @@
   "dependencies": {
     "lodash-es": "^4.17.10",
     "phaser-ce": "^2.10.6",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
     "styled-components": "^3.3.2",
     "styled-sanitize": "^1.0.2"
   },
   "devDependencies": {
     "@types/lodash-es": "^4.17.0",
-    "@types/node": "^10.3.2",
+    "@types/node": "^10.3.3",
     "@types/react": "^16.3.17",
     "@types/react-dom": "^16.0.6",
     "@types/react-helmet": "^5.0.6",
-    "cross-env": "^5.1.5",
+    "cross-env": "^5.2.0",
     "expose-loader": "^0.7.5",
     "gh-pages": "^1.2.0",
     "husky": "^0.14.3",
@@ -29,7 +29,7 @@
     "react-app-rewired": "^1.5.2",
     "react-scripts-ts": "2.16.0",
     "rimraf": "^2.6.2",
-    "typescript": "^2.9.1"
+    "typescript": "^2.9.2"
   },
   "scripts": {
     "precommit": "pretty-quick --stage",
